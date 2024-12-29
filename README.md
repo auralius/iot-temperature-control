@@ -4,7 +4,7 @@ The temperature control device used here is described [in this page](https://www
 
 Since the temperature control device is built on top of an Arduino Uno, we add an ESP8266 to allow internet communications.
 
-# The Scenario
+## The Scenario
 * We only use one of the two available heaters.
 * There are two exchanged variables in the overall system:
   * ```PV```: process value, which is the current temperature of the heater.
